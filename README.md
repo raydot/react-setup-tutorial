@@ -49,13 +49,14 @@ module.exports = {
 </li>
 	<li>Pull in React: <code>npm i react react-dom -D</code></li>
 	<li>Create some more folders to hold containers and presentation logic: <code>mkdir -p src/js/components/{container,presentational}</code>
-	<p>That's all you need to start creating containers and JSX, but just to gild the lily:</p>
+	<p>Create <code>./src/index.js</code> and <code>./index.html</code> and that's all you need to start creating React containers and JSX, but just to gild the lily:</p>
 	</li>
 	<li>Add components for processing HTML: <code>npm i html-webpack-plugin html-loader -D</code></li>
 
 <li>Add a few more lines so <code>webpack.config.js</code> looks like this:
 
 ```
+/* DON'T FORGET THIS CONST UP HERE! :-) */
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -104,5 +105,5 @@ module.exports = {
 </li>
 </ol>
 
-There are other libraries involved including <code>prop-types</code>, <code>html-webpack-plugin</code>, <code>html-loader</code>, and <code>webpack-dev-server</code>.  Check the <code>package.json</code> file and/or the <a href="https://www.valentinog.com/blog/react-webpack-babel/">original tutorial</a> for details.
+The tutorial is more complete in steps and installs more libraries like <code>prop-types</code>.  Check the <code>package.json</code> file and/or the <a href="https://www.valentinog.com/blog/react-webpack-babel/">original tutorial</a> for details.
 
