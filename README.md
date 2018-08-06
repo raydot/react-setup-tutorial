@@ -49,7 +49,7 @@ module.exports = {
 </li>
 	<li>Pull in React: <code>npm i react react-dom -D</code></li>
 	<li>Create some more folders to hold containers and presentation logic: <code>mkdir -p src/js/components/{container,presentational}</code>
-	<p>Create <code>./src/index.js</code> and <code>./index.html</code> and that's all you need to start creating React containers and JSX, but just to gild the lily:</p>
+	<p>Create <code>./src/index.js</code> and <code>./src/index.html</code> and that's all you need to start creating React containers and JSX, but just to gild the lily:</p>
 	</li>
 	<li>Add components for processing HTML: <code>npm i html-webpack-plugin html-loader -D</code></li>
 
@@ -102,6 +102,8 @@ module.exports = {
   "build": "webpack"
 }
 ```
+
+Now <code>npm start</code> will launch the code in a browser and start listening for any changes.
 </li>
 </ol>
 
