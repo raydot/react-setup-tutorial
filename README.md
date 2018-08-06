@@ -9,30 +9,30 @@ The relevant steps:
 	<li><code>npm i webpack -D</code> installs webpack</li>
 	<li><code>npm i webpack-cli -D</code></li>
 	<li>Add this to package.json
-		<p><code>"scripts" : {
-		&emsp;"build" : "webpack --mode production"
+		<p><code>"scripts" : {<br>
+		&emsp;"build" : "webpack --mode production"<br>
 		}
 		</code></p>
 	</li>
 	<li><code>npm i babel-loader babel-core babel-preset-env babel-preset--react -D</code> to install Babel</li>
-	<li>Configure Babel by adding .babelrc and then: <p><code>{
-	&emsp;"presets": ["env", "react"]
+	<li>Configure Babel by adding .babelrc and then: <p><code>{<br>
+	&emsp;"presets": ["env", "react"]<br>
 	}
 	</code></p></li>
 	<li>Then create a minimal Webpack configuration to run all JS through Babel:
 		<p><code>
-			module.exports = {
-			&emsp;module: {
-			&emsp;&emsp;rules: [
-			&emsp;&emsp;&emsp;{
-			&emsp;&emsp;&emsp;&emsp;test: /\.js$/,
-			&emsp;&emsp;&emsp;&emsp;exclude: /node_modules/,
-			&emsp;&emsp;&emsp;&emsp;use: {
-			&emsp;&emsp;&emsp;&emsp;&emsp;loader: "babel-loader"
-			&emsp;&emsp;&emsp;&emsp;}
-			&emsp;&emsp;&emsp;}
-			&emsp;&emsp;]
-			&emsp;}
+			module.exports = {<br>
+			&emsp;module: {<br>
+			&emsp;&emsp;rules: [<br>
+			&emsp;&emsp;&emsp;{<br>
+			&emsp;&emsp;&emsp;&emsp;test: /\.js$/,<br>
+			&emsp;&emsp;&emsp;&emsp;exclude: /node_modules/,<br>
+			&emsp;&emsp;&emsp;&emsp;use: {<br>
+			&emsp;&emsp;&emsp;&emsp;&emsp;loader: "babel-loader"<br>
+			&emsp;&emsp;&emsp;&emsp;}<br>
+			&emsp;&emsp;&emsp;}<br>
+			&emsp;&emsp;]<br>
+			&emsp;}<br>
 			};
 		</code></p>
 	</li>
