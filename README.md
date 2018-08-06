@@ -16,7 +16,7 @@ The relevant steps:
 }
 ```
 
-	</li>
+   </li>
 	<li><code>npm i babel-loader babel-core babel-preset-env babel-preset--react -D</code> to install Babel</li>
 	<li>Configure Babel by adding .babelrc and then add:
 
@@ -26,7 +26,7 @@ The relevant steps:
 }
 ```
 
-	<li>Then create a minimal Webpack configuration to run all JS through Babel:
+<li>Then create a minimal Webpack configuration to run all JS through Babel:
 		
 ```
 module.exports = {
@@ -44,8 +44,8 @@ module.exports = {
 };
 ```
 
-	</li>
+</li>
 	<li>Last of all, pull in React: <code>npm i react react-dom -D</li>
-	}
+	
 </ol>
 
