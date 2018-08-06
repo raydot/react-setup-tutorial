@@ -20,23 +20,22 @@ The relevant steps:
 	}
 	</code></p></li>
 	<li>Then create a minimal Webpack configuration to run all JS through Babel:
-		<p>
-
-		```
-		module.exports = {
-			module: {
-				rules: [
-					{
-						test: /\.js$/,
-						exclude: /node_modules/,
-						use: {
-							loader: "babel-loader"
-						}	
-					}
-				]
+		
+```
+module.exports = {
+	module: {
+		rules: [
+			{
+				test: /\.js$/,
+				exclude: /node_modules/,
+				use: {
+					loader: "babel-loader"
+				}	
 			}
-		};
-		```
+		]
+	}
+};
+```
 
 		</p>
 	</li>
