@@ -9,16 +9,23 @@ The relevant steps:
 	<li><code>npm i webpack -D</code> installs webpack</li>
 	<li><code>npm i webpack-cli -D</code></li>
 	<li>Add this to package.json
-		<p><code>"scripts" : {<br>
-		&emsp;"build" : "webpack --mode production"<br>
-		}
-		</code></p>
+
+```
+"scripts" : {
+	"build" : "webpack --mode production"
+}
+```
+
 	</li>
 	<li><code>npm i babel-loader babel-core babel-preset-env babel-preset--react -D</code> to install Babel</li>
-	<li>Configure Babel by adding .babelrc and then: <p><code>{<br>
-	&emsp;"presets": ["env", "react"]<br>
-	}
-	</code></p></li>
+	<li>Configure Babel by adding .babelrc and then add:
+
+```
+{
+	&emsp;"presets": ["env", "react"]
+}
+```
+
 	<li>Then create a minimal Webpack configuration to run all JS through Babel:
 		
 ```
@@ -37,7 +44,6 @@ module.exports = {
 };
 ```
 
-		</p>
 	</li>
 	<li>Last of all, pull in React: <code>npm i react react-dom -D</li>
 	}
