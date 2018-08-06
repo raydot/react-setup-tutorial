@@ -45,7 +45,6 @@ module.exports = {
 ```
 
 </li>
-	<li>Last of all, pull in React: <code>npm i react react-dom -D</li>
-	
+	<li>Last of all, pull in React: <code>npm i react react-dom -D</code></li>
 </ol>
 
