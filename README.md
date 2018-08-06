@@ -1,4 +1,4 @@
-# react-setup-tutorial
+# react-setup-tutorial (August, 2018)
 Setting up React with Webpack and Babel.  Tutorial from https://www.valentinog.com/blog/react-webpack-babel/ 
 
 It's hard to find good, current tutorials.  Valentino Galiardi has done us all a solid with this build process.  Please visit <a href="https://www.valentinog.com/blog/">his site</a> and check out the rest of what he has to offer! 
