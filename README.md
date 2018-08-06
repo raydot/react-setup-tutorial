@@ -45,7 +45,7 @@ module.exports = {
 ```
 
 </li>
-	<li>Last of all, pull in React: <code>npm i react react-dom -D</code></li>
+	<li>Last of all, pull in React: <code>npm i react react-dom -D</code>, and create some more folders to hold containers and presentation logic: <code>mkdir -p src/js/components/{container,presentational}</code></li>
 </ol>
 
 There are other libraries involved including <code>prop-types</code>, <code>html-webpack-plugin</code>, <code>html-loader</code>, and <code>webpack-dev-server</code>.  Check the <code>package.json</code> file and/or the tutorial for details.
