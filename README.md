@@ -17,7 +17,7 @@ The relevant steps:
 ```
 
    </li>
-	<li><code>npm i babel-loader babel-core babel-preset-env babel-preset--react -D</code> to install Babel</li>
+	<li>Install Babel:<br/><code>npm i babel-loader babel-core babel-preset-env babel-preset--react -D</code> </li>
 	<li>Configure Babel by adding .babelrc and then add:
 
 ```
