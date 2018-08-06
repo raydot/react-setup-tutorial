@@ -20,21 +20,21 @@ The relevant steps:
 	}
 	</code></p></li>
 	<li>Then create a minimal Webpack configuration to run all JS through Babel:
-		<p><code>
-			module.exports = {<br>
-			&emsp;module: {<br>
-			&emsp;&emsp;rules: [<br>
-			&emsp;&emsp;&emsp;{<br>
-			&emsp;&emsp;&emsp;&emsp;test: /\.js$/,<br>
-			&emsp;&emsp;&emsp;&emsp;exclude: /node_modules/,<br>
-			&emsp;&emsp;&emsp;&emsp;use: {<br>
-			&emsp;&emsp;&emsp;&emsp;&emsp;loader: "babel-loader"<br>
-			&emsp;&emsp;&emsp;&emsp;}<br>
-			&emsp;&emsp;&emsp;}<br>
-			&emsp;&emsp;]<br>
-			&emsp;}<br>
+		<p>```
+			module.exports = {
+				module: {
+					rules: [
+						{
+							test: /\.js$/,
+							exclude: /node_modules/,
+							use: {
+								loader: "babel-loader"
+							}	
+						}
+					]
+				}
 			};
-		</code></p>
+		```</p>
 	</li>
 	<li>Last of all, pull in React: <code>npm i react react-dom -D</li>
 	}
