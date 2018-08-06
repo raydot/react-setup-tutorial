@@ -36,7 +36,7 @@ The relevant steps:
 			};
 		</code></p>
 	</li>
-	<li>Then, pull in React: <code>npm i react react-dom -D</li>
+	<li>Last of all, pull in React: <code>npm i react react-dom -D</li>
 	}
 </ol>
 
