@@ -90,7 +90,7 @@ module.exports = {
 
 </li>
 
-<li>Create some HTML and hook it into the container.  At this point <code>npm run build</code> should work, pushing the transpiled html into the .dist folder.</li>
+<li>Create some HTML and hook it into the container.  At this point <code>npm run build</code> should work, pushing the transpiled html into the <code>dist</dist> folder.</li>
 
 <li>Last step, get it working with the webpack dev server: <code>npm i webpack-dev-server -D</code></li>
 
